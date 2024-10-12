@@ -1,5 +1,6 @@
 import { Italianno } from '@next/font/google';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 
@@ -16,7 +17,13 @@ export default function Blog() {
             <div className='parentContainer'>
                 <div className='childContainer slide-in-fwd-center'>
               <div className='imageContainer'>
-                <img src="/image/Biryani-Recipe.jpg" alt="biryaniImage" />
+                <Image
+                 src="/image/Biryani-Recipe.jpg"
+                  alt="biryaniImage"
+                  width={700}
+                  height={500}
+                  layout="responsive"
+                  />
             </div>      
             <h1 className='title'>Chicken Biryani</h1>
             <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>
@@ -27,7 +34,13 @@ export default function Blog() {
 
     <div className='childContainer slide-in-fwd-center'>
               <div className='imageContainer'>
-                <img src="/image/pizza-recipe.jpg" alt="pizzaImage" />
+                <Image
+                 src="/image/pizza-recipe.jpg"
+                 alt="pizzaImage"
+                 width={700}
+                 height={500}
+                 layout="responsive"
+                  />
             </div>      
             <h1 className='title'>Pepperoni Pizza</h1>
             <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>
@@ -38,7 +51,13 @@ export default function Blog() {
 
     <div className='childContainer slide-in-fwd-center'>
               <div className='imageContainer'>
-                <img src="/image/macroni-recipe.jpg" alt="macroniImage" />
+                <Image
+                 src="/image/macroni-recipe.jpg"
+                 alt="macroniImage"
+                 width={700}
+                 height={500}
+                 layout="responsive"
+                 />
             </div>      
             <h1 className='title'>Chicken Macroni</h1>
             <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>
@@ -49,7 +68,13 @@ export default function Blog() {
 
     <div className='childContainer slide-in-fwd-center'>
               <div className='imageContainer'>
-                <img src="/image/cake-recipe.jpg" alt="cakeImage" />
+                <Image 
+                src="/image/cake-recipe.jpg" 
+                alt="cakeImage"
+                width={700}
+                height={500}
+                layout="responsive"
+                 />
             </div>      
             <h1 className='title'>Chocolate Cake</h1>
             <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>
@@ -60,7 +85,13 @@ export default function Blog() {
 
     <div className='childContainer slide-in-fwd-center'>
               <div className='imageContainer'>
-                <img src="/image/shake-recipe.jpg" alt="shakeiImage" />
+                <Image 
+                src="/image/shake-recipe.jpg" 
+                alt="shakeiImage"
+                width={700}
+                height={500}
+                layout="responsive"
+                 />
             </div>      
             <h1 className='title'>Strawberry Milkshake</h1>
             <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>
@@ -71,7 +102,13 @@ export default function Blog() {
 
     <div className='childContainer slide-in-fwd-center'>
               <div className='imageContainer'>
-                <img src="/image/lasagna-recipe.jpg" alt="lasagnaImage" />
+                <Image 
+                src="/image/lasagna-recipe.jpg" 
+                alt="lasagnaImage"
+                width={700}
+                height={500}
+                layout="responsive"
+                 />
             </div>      
             <h1 className='title'>Chicken Lasagna</h1>
             <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>

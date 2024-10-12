@@ -1,4 +1,5 @@
 import { Italianno } from '@next/font/google';
+import Image from 'next/image';
 
 const italianno = Italianno({
     weight: '400',
@@ -16,7 +17,13 @@ export default function About() {
             </h2>
             <div className="flex flex-col lg:flex-row items-center justify-between p-4 sm:p-10">
                 <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[700px] h-auto mb-8 lg:mb-16">
-                    <img src="/image/food-pic.jpg" alt="foodBlogPic" />
+                    <Image 
+                    src="/image/food-pic.jpg" 
+                    alt="foodBlogPic" 
+                    width={700}
+                    height={500}
+                    layout="responsive"
+                    />
                 </div>
                 <div className="text-[16px] sm:text-[20px] md:text-[25px] lg:text-[30px] max-w-full sm:max-w-[90%] md:max-w-[80%] lg:max-w-[800px] mb-8 lg:mb-16 text-justify">
                     <p>
