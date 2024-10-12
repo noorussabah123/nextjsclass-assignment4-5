@@ -27,7 +27,7 @@ export default function About() {
                 </div>
                 <div className="text-[16px] sm:text-[20px] md:text-[25px] lg:text-[30px] max-w-full sm:max-w-[90%] md:max-w-[80%] lg:max-w-[800px] mb-8 lg:mb-16 text-justify">
                     <p>
-                        Welcome to Pinch of Yum, a space where my love for cooking meets creativity. Here, I share simple yet delicious recipes that anyone can make at home. Whether you're a beginner or a seasoned cook, you'll find something exciting to try. Let's explore flavors together, one dish at a time!
+                        Welcome to Pinch of Yum a space where my love for cooking meets creativity. Here, I share simple yet delicious recipes that anyone can make at home. Whether you're a beginner or a seasoned cook you'll find something exciting to try. Let's explore flavors together one dish at a time!
                     </p>
                 </div>
             </div>

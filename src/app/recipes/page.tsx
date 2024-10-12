@@ -60,7 +60,7 @@ export default function Recipes() {
                 />
             </div>      
             <h1 className='title'>Chicken Macroni</h1>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat blanditiis cum?</p>
             <Link href={"/macroni-recipe"}>
             <button className='readMore'>Read More</button>
             </Link>
@@ -77,7 +77,7 @@ export default function Recipes() {
                 />
             </div>      
             <h1 className='title'>Chocolate Cake</h1>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat blanditiis cum?</p>
             <Link href={"/cake-recipe"}>
             <button className='readMore'>Read More</button>
             </Link>
@@ -94,7 +94,7 @@ export default function Recipes() {
                 />
             </div>      
             <h1 className='title'>Strawberry Milkshake</h1>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat blanditiis cum?</p>
             <Link href={"/shake-recipe"}>
             <button className='readMore'>Read More</button>
             </Link>
@@ -111,7 +111,7 @@ export default function Recipes() {
                 />
             </div>      
             <h1 className='title'>Chicken Lasagna</h1>
-            <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat, blanditiis cum?</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aliquid porro cupiditate quaerat blanditiis cum?</p>
             <Link href={"/lasagna-recipe"}>
             <button className='readMore'>Read More</button>
             </Link>

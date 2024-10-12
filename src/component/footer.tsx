@@ -42,7 +42,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="allRights">
-                <p className="allRightsText">&copy; 2024 Pinch of Yum. All Rights Reserved.</p>
+                <p className="allRightsText">&copy; 2024 Pinch of Yum All Rights Reserved.</p>
             </div>
         </footer>
     )

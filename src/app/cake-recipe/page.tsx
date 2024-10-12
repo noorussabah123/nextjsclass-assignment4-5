@@ -36,7 +36,7 @@ export default function Biryani() {
 
                 <div className="flex flex-col items-start p-4 sm:p-6">
                     <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[25px] text-left text-black ml-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio tenetur alias sit natus quas quia debitis nemo minus aspernatur quidem at laudantium porro consequuntur magni tempora voluptas, nostrum aut a deserunt, ut nisi! Exercitationem enim quam, quo velit repellendus nostrum eaque voluptatibus repellat ducimus fuga nam totam in earum!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio tenetur alias sit natus quas quia debitis nemo minus aspernatur quidem at laudantium porro consequuntur magni tempora voluptas, nostrum aut a deserunt ut nisi! Exercitationem enim quam, quo velit repellendus nostrum eaque voluptatibus repellat ducimus fuga nam totam in earum!
                     </p>
                 </div>
             </div>
